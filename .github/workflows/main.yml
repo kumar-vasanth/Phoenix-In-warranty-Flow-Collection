@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 30 2 * * *   # 8:00 AM IST
-    - cron: 00 14 * * *  # 7:30 PM IST
+    - cron: 0 14 * * *  # 7:30 PM IST
 jobs:
   run-postman-tests:
     runs-on: ubuntu-latest
